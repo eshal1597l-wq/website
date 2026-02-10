@@ -1,1 +1,230 @@
-# website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProDigital Services - Expert Digital and Office Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Arial', sans-serif; color: #333; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 100px 0; text-align: center; }
+        .hero h1 { font-size: 3rem; font-weight: bold; }
+        .hero p { font-size: 1.25rem; margin: 20px 0; }
+        .service-card { border: none; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .service-card:hover { transform: translateY(-5px); }
+        .cta-btn { background-color: #667eea; border: none; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
+        .cta-btn:hover { background-color: #5a67d8; color: white; }
+        .pricing-card { border: 1px solid #e2e8f0; padding: 20px; text-align: center; }
+        .pricing-card h4 { color: #667eea; }
+        footer { background-color: #f8f9fa; padding: 20px 0; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">ProDigital Services</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Boost Your Productivity with Expert Digital and Office Services</h1>
+            <p>From AI-powered solutions to professional graphic design and virtual assistance, we deliver tailored services to freelancers, startups, and small businesses. Get started today and streamline your operations.</p>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-file-word fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">MS Office Services</h5>
+                            <p class="card-text">Expert assistance with Word, PowerPoint, and other MS Office tools to create professional documents, presentations, and reports.</p>
+                            <a href="#contact" class="cta-btn">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Artificial Intelligence (AI) Services</h5>
+                            <p class="card-text">Leverage AI for data analysis, automation, and intelligent insights to optimize your business processes.</p>
+                            <a href="#contact" class="cta-btn">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-palette fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Graphic Designing</h5>
+                            <p class="card-text">Creative and professional graphic design services for logos, branding, marketing materials, and more.</p>
+                            <a href="#contact" class="cta-btn">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-video fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Video Editing</h5>
+                            <p class="card-text">High-quality video editing for tutorials, promotions, social media content, and professional presentations.</p>
+                            <a href="#contact" class="cta-btn">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Excel Services</h5>
+                            <p class="card-text">Advanced Excel solutions including data analysis, automation, dashboards, and custom formulas for efficient data management.</p>
+                            <a href="#contact" class="cta-btn">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-user-cog fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Administration Support</h5>
+                            <p class="card-text">Comprehensive administrative support including scheduling, email management, and organizational tasks to keep your operations running smoothly.</p>
+                            <a href="#contact" class="cta-btn">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-user-tie fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Virtual Assistant Services</h5>
+                            <p class="card-text">Reliable virtual assistants to handle daily tasks, customer support, research, and more, tailored to your business needs.</p>
+                            <a href="#contact" class="cta-btn">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">At ProDigital Services, we specialize in providing high-quality online professional services designed to enhance productivity and efficiency for freelancers, startups, and small businesses. Our team of experts delivers tailored solutions in digital tools, AI, design, and administrative support, ensuring you focus on what matters most—growing your business. With a commitment to trust, innovation, and results, we build long-term partnerships to help you succeed in a competitive world.</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Simple Pricing Packages</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="pricing-card">
+                        <h4>Starter</h4>
+                        <p class="price">$99/month</p>
+                        <ul class="list-unstyled">
+                            <li>Basic MS Office Support</li>
+                            <li>1 Service Area</li>
+                            <li>Email Support</li>
+                        </ul>
+                        <a href="#contact" class="cta-btn">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="pricing-card">
+                        <h4>Professional</h4>
+                        <p class="price">$299/month</p>
+                        <ul class="list-unstyled">
+                            <li>Advanced Services (AI, Design)</li>
+                            <li>3 Service Areas</li>
+                            <li>Priority Support</li>
+                        </ul>
+                        <a href="#contact" class="cta-btn">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="pricing-card">
+                        <h4>Enterprise</h4>
+                        <p class="price">$499/month</p>
+                        <ul class="list-unstyled">
+                            <li>All Services Included</li>
+                            <li>Unlimited Service Areas</li>
+                            <li>Dedicated Account Manager</li>
+                        </ul>
+                        <a href="#contact" class="cta-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-btn">Contact Us</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <p>Ready to elevate your business? Reach out to us for a free consultation. We're here to help you achieve your goals with our expert services.</p>
+                    <p><strong>Email:</strong> info@prodigital.com</p>
+                    <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ProDigital Services. All rights reserved.</p>
+            <div>
+                <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html># website
